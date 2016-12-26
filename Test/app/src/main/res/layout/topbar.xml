@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--这样的设计并不好，可定制性反而不强，最好的是XML的布局在控件代码中引用，再引用该控件。-->
+<com.example.fairy2016.test.TopBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/topBar"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    custom:title="Fairy is a fool"
+    custom:titleTextSize="10sp"
+    custom:titleTextColor="#123412"
+    custom:leftBackground="@android:color/holo_blue_light"
+    custom:leftTextColor="@android:color/white"
+    custom:leftText="BACK"
+
+    custom:rightBackground="@android:color/holo_blue_light"
+    custom:rightTextColor="@android:color/white"
+    custom:rightText="MORE"
+    >
+</com.example.fairy2016.test.TopBar>

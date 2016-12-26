@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <!--<com.example.fairy2016.test.TestTextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/playText"
+       android:textSize="20sp"
+       />-->
+    <include
+        android:id="@+id/topBar"
+        layout="@layout/topbar"
+        />
+    <Spinner
+        android:id="@+id/angleSelector"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/topBar"
+        android:textAlignment="center"
+        android:background="#c3c3c3c3"
+        >
+    </Spinner>
+
+    <com.example.fairy2016.test.RatioView
+        android:id="@+id/ratioView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/angleSelector"
+        android:layout_marginTop="20dp"
+        />
+</RelativeLayout>

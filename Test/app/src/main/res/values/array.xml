@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="function">
+        <item>比例控件实现</item>
+        <item>动态条形图实现</item>
+        <item>自定义时钟</item>
+        <item>RecyclerView控件</item>
+        <item>过渡动画</item>
+    </string-array>
+</resources>

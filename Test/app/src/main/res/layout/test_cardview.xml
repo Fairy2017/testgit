@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+
+    card_view:cardElevation="10dp"
+    card_view:cardBackgroundColor="#00ff00"
+    card_view:cardCornerRadius="30dp"
+
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="Fairy is a fool"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_margin="30dp"
+        />
+</android.support.v7.widget.CardView>
